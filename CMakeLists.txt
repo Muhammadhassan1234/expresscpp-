@@ -156,8 +156,7 @@ find_package(Threads
 
 # TODO(gocarlos): we should also depend on boost beast here, conan not ready yet
 find_package(Boost
-             REQUIRED
-             COMPONENTS system)
+             REQUIRED)
 find_package(fmt)
 
 find_package(nlohmann_json
